@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.login {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* background: #E5E5E5; */
+}
+
+.login_logo {
+    width: 160px;
+    height: 36.02px;
+    object-fit: contain;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login_container {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+
+.login_container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login_container > form > h5 {
+    margin-bottom: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.login_container > form > input {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: white;
+    width: 98%;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+.login_container > p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.login_container >p a{
+    text-decoration:none;
+    color:#007dd1;
+  }
+
+.login_signInButton {
+    background: #3766E8;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 30px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+  }
+
+  .login_registerButton {
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    cursor: pointer;
+  }
+
+.login__createAccount p{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:12px; 
+    color:#999;
+}
+
+.login__createAccount button{
+    width:300px;
+    padding:6px;
+}
+
+.company_size {
+    display: flex;
+    justify-content: left;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.company_size > div {
+    margin-right: 10px;
+    background: #F0F0F0;
+    padding: 0 10px;
+    border-radius: 2px;
+}
+
+.example_div {
+    background: #3766E8 !important;
+    color: white;
+}
+.heading{
+    text-align: center;
+}
+
+.dropdown_menu {
+    color: black;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: white;
+    width: 98%;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown_menu:hover {
+    color: black !important;
+    margin-bottom: 10px !important;
+    height: 30px !important;
+    background-color: white !important;
+    width: 98% !important;
+    border: 1px solid #CED4DA !important;
+    border-radius: 6px !important;
+}
+
+.box_down {
+    margin-top: 40px;
+}
+
+.comp_size {
+    margin-top: 15px !important;
+}
